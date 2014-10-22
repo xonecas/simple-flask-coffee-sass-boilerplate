@@ -1,0 +1,3 @@
+V(function() {\u000a  var delayedText;\u000a  console.log("Oh Baby");\u000a  delayedText = function(text) {\u000a    var body, insertLetter, letters;\u000a    letters = text.split();\u000a    body = $("body");\u000a    insertLetter = function() {\u000a      return body.append("<span class='fade in'>" + (letters.shift()) + "</span>");\u000a    };\u000a    return setTimeout(insertLetter(1000));\u000a  };\u000a  return $(function() {\u000a    return delayedText("the playground");\u000a  });\u000a})();\u000a
+p1
+.

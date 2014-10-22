@@ -1,0 +1,3 @@
+V(function() {\u000a  var delayedText;\u000a  console.log("Oh Baby");\u000a  delayedText = function(text) {\u000a    var body, letter, letters;\u000a    letters = text.split();\u000a    body = $("body");\u000a    return body.append((function() {\u000a      var _i, _len, _results;\u000a      _results = [];\u000a      for (_i = 0, _len = letters.length; _i < _len; _i++) {\u000a        letter = letters[_i];\u000a        _results.push("<span class='fade in'>" + letter + "</span>");\u000a      }\u000a      return _results;\u000a    })());\u000a  };\u000a  return $(function() {\u000a    return delayedText("the playground");\u000a  });\u000a})();\u000a
+p1
+.

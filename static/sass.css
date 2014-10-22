@@ -1,0 +1,34 @@
+@media -sass-debug-info{filename{}line{font-family:\000033}}
+html,
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000311}}
+code,
+pre {
+  font-family: "Fira Mono", monospace;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000316}}
+#smooth {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  color: white;
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000324}}
+.fade {
+  transition: opacity 0.2s ease-in-out;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000326}}
+.fade.in {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000328}}
+.fade.out {
+  opacity: 0;
+}

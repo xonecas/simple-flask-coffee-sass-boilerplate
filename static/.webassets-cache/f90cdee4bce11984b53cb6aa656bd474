@@ -1,0 +1,3 @@
+V(function() {\u000a  var delayedText;\u000a  console.log("Oh Baby");\u000a  return delayedText = function(text) {\u000a    var letters;\u000a    letters = text.split;\u000a    return $("body".append("<span>{# letter }</span>"));\u000a  };\u000a})();\u000a
+p1
+.
